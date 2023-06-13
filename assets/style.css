@@ -9,10 +9,10 @@ body > video {
     transform:translate(-50%, -50%);
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 720px) {
     body > video { width:100% }
 }
 
-@media screen and (min-height: 720px) {
+@media screen and (max-height: 720px) {
     body > video { height:100% }
 }
